@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Full Stack Application – Core Features & Deliverables
 
-## Getting Started
+## Core Features to Implement
 
-First, run the development server:
+### ✅ Frontend (Primary Focus)
+- Build using **React.js** or **Next.js**
+- Fully **responsive UI** using one of the following:
+  - TailwindCSS
+  - Material UI
+  - Bootstrap
+- Forms with **client-side and server-side validation**
+- **Protected routes** (authentication required for dashboard access)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### ✅ Basic Backend (Supportive)
+- Implement a lightweight backend using one of the following:
+  - **Node.js with Express**
+  - **Python with FastAPI or Django**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+#### Backend APIs
+- **Authentication**
+  - User signup
+  - User login
+  - JWT-based authentication
+- **User Profile**
+  - Fetch profile data
+  - Update profile data
+- **Sample Entity (CRUD)**
+  - Example entities: tasks, notes, or posts
+  - Create
+  - Read
+  - Update
+  - Delete
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+#### Database
+- Connect backend to one database:
+  - MongoDB
+  - PostgreSQL
+  - MySQL
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+### ✅ Dashboard Features
+- Display authenticated **user profile** (fetched from backend)
+- Full **CRUD operations** for the sample entity
+- **Search and filter** functionality in the UI
+- **Logout flow** (invalidate token / clear session)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### ✅ Security & Scalability
+- Password hashing using **bcrypt** (or equivalent)
+- JWT authentication middleware
+- Centralized error handling
+- Input validation and sanitization
+- Modular and clean code structure designed for scalability
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deliverables
+- **Frontend + Backend source code** hosted in a GitHub repository
+- Functional authentication flow:
+  - Register
+  - Login
+  - Logout
+  - JWT handling
+- Dashboard with CRUD-enabled sample entity
+- **Postman collection** or **API documentation**
+- A short note explaining how the frontend-backend integration would be **scaled for production**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Evaluation Criteria
+- ✅ UI/UX quality and responsiveness
+- ✅ Proper integration between frontend and backend
+- ✅ Secure authentication practices (hashed passwords, token validation)
+- ✅ Code quality, readability, and documentation
+- ✅ Scalability potential (project structure, modularity, best practices)
