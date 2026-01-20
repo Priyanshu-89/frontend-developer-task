@@ -15,8 +15,8 @@
 
 ### ✅ Basic Backend (Supportive)
 - Implement a lightweight backend using one of the following:
-  - **Node.js with Express**
-  - **Python with FastAPI or Django**
+  - **Nextjs Full Stack**
+  
 
 #### Backend APIs
 - **Authentication**
@@ -36,9 +36,7 @@
 #### Database
 - Connect backend to one database:
   - MongoDB
-  - PostgreSQL
-  - MySQL
-
+ 
 ---
 
 ### ✅ Dashboard Features
